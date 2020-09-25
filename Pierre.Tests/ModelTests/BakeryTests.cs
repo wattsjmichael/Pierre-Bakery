@@ -7,12 +7,16 @@ namespace Pierre.Test
   public class BakeryTests
   {
     [TestMethod]
-    public void isBakery_NumberMultipleByThree_True()
+    public void isBread_NumberMultipleByThree_True()
     {
-      Bakery testBakery = new Bakery();
-      Assert.AreEqual(true, testBakery.isBakery(5));
+      Bread testBread = new Bread();
+      Assert.AreEqual(true, testBread.isBread(5));
     }
-
-    
+    [TestMethod]
+    public void isPastry_NumberMultiplyByTwo_True()
+    {
+      Pastry testPastry = new Pastry();
+      Assert.AreEqual(true, testPastry.isPastry(4));
+    }
   }
 }
