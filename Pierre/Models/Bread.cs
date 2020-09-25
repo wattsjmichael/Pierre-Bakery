@@ -6,7 +6,7 @@ namespace Pierre.Models
   public class Bread
   {
     
-    static public int isBread(int userBread)
+    public static int isBread(int userBread)
     {
       if (userBread % 3 == 0)
       {
