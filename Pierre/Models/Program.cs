@@ -1,5 +1,7 @@
 using System;
 using Pierre;
+using Pierre.Models;
+
 
 namespace Pierre
 {
@@ -12,7 +14,7 @@ namespace Pierre
       Console.WriteLine("How many loaves of Bread would you like?");
       string userOrderOne = Console.ReadLine();
       int userBread = int.Parse(userOrderOne);
-      Console.WriteLine(userBread);
+      Console.WriteLine(userBread.isBread());
     }
   }
 }

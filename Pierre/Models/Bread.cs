@@ -1,7 +1,11 @@
-namespace Pierre
+using System;
+
+
+namespace Pierre.Models
 {
   public class Bread
   {
+    
     public int isBread(int userBread)
     {
       if (userBread % 3 == 0)
