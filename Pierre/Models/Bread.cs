@@ -5,8 +5,8 @@ namespace Pierre
     public int isBread(int userBread)
     {
       if (userBread % 3 == 0)
-      { 
-        return ((((2*userBread) * 5) - (userBread * 5)));
+      {
+        return (userBread * 5) - ((userBread/3) * 5);
       }
       else
       {
@@ -14,12 +14,13 @@ namespace Pierre
       }
     }
   }
-    public class Pastry
+  public class Pastry
+  {
+    public int isPastry(int userPastry)
     {
-      public bool isPastry(int pastry)
-      {
-        return pastry * 2 == 4;
-      }
+      return (userPastry * 2);
     }
   }
+}
+
 
