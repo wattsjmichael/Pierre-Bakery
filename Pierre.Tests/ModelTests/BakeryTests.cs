@@ -30,5 +30,11 @@ namespace Pierre.Test
       Bread testBread = new Bread();
       Assert.AreEqual(20, testBread.isBread(6));
     }
+    [TestMethod]
+    public void isPastry_BuyThreeforFive_True()
+    {
+      Pastry testPastry = new Pastry();
+      Assert.AreEqual(5, testPastry.isPastry(3));
+    }
 }
 }
