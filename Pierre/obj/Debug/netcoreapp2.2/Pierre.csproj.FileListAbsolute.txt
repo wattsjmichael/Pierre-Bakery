@@ -7,3 +7,5 @@ K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\obj\Debug\netcoreapp2.2\Pierr
 K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\obj\Debug\netcoreapp2.2\Pierre.AssemblyInfo.cs
 K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\obj\Debug\netcoreapp2.2\Pierre.dll
 K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\obj\Debug\netcoreapp2.2\Pierre.pdb
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\bin\Debug\netcoreapp2.2\Pierre.runtimeconfig.json
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\bin\Debug\netcoreapp2.2\Pierre.runtimeconfig.dev.json

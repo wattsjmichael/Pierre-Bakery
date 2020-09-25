@@ -6,7 +6,7 @@ namespace Pierre
     {
       if (userBread % 3 == 0)
       {
-        return (userBread * 5) - ((userBread/3) * 5);
+        return (userBread * 5) - ((userBread / 3) * 5);
       }
       else
       {
@@ -18,9 +18,29 @@ namespace Pierre
   {
     public int isPastry(int userPastry)
     {
-      return (userPastry * 2);
+      if (userPastry % 3 == 0)
+      {
+        return ((userPastry / 3) * 5);
+      }
+      else if (userPastry % 3 == 1)
+      {
+        return ((userPastry / 3) * 5) + ((userPastry / userPastry) * 2);
+      }
+      else if (userPastry % 3 == 2 && userPastry >= 4)
+      {
+        return ((userPastry / 3) * 5) + ((userPastry % 3) * 2);
+      }
+      else
+      {
+        return (userPastry * 2);
+      }
     }
+
   }
+
 }
+
+
+
 
 
