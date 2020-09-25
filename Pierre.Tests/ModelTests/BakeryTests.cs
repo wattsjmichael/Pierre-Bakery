@@ -24,5 +24,11 @@ namespace Pierre.Test
       Bread testBread = new Bread();
       Assert.AreEqual(10, testBread.isBread(3));
     }
+    [TestMethod]
+    public void isBread_BuyFourGetTwoFree_True()
+    {
+      Bread testBread = new Bread();
+      Assert.AreEqual(20, testBread.isBread(6));
+    }
 }
 }
