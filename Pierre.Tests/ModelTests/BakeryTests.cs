@@ -42,5 +42,7 @@ namespace Pierre.Test
       Pastry testPastry = new Pastry();
       Assert.AreEqual(10, testPastry.isPastry(6));
     }
+    [TestMethod]
+    public void 
 }
 }
