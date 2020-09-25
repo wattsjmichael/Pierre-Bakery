@@ -22,7 +22,7 @@ namespace Pierre.Test
     public void isBread_BuyTwoGetOneFree_True()
     {
       Bread testBread = new Bread();
-      Assert.AreEqual(20, testBread.isBread(6));
+      Assert.AreEqual(10, testBread.isBread(3));
     }
 }
 }
