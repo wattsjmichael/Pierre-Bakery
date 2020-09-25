@@ -1,0 +1,17 @@
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\bin\Debug\netcoreapp2.2\Pierre.Tests.deps.json
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\bin\Debug\netcoreapp2.2\Pierre.Tests.runtimeconfig.json
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\bin\Debug\netcoreapp2.2\Pierre.Tests.runtimeconfig.dev.json
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\bin\Debug\netcoreapp2.2\Pierre.Tests.dll
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\bin\Debug\netcoreapp2.2\Pierre.Tests.pdb
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\bin\Debug\netcoreapp2.2\Pierre.dll
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\bin\Debug\netcoreapp2.2\Pierre.pdb
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\obj\Debug\netcoreapp2.2\Pierre.Tests.csprojAssemblyReference.cache
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\obj\Debug\netcoreapp2.2\Pierre.Tests.csproj.CoreCompileInputs.cache
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\obj\Debug\netcoreapp2.2\Pierre.Tests.AssemblyInfoInputs.cache
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\obj\Debug\netcoreapp2.2\Pierre.Tests.AssemblyInfo.cs
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\obj\Debug\netcoreapp2.2\Pierre.Tests.csproj.CopyComplete
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\obj\Debug\netcoreapp2.2\Pierre.Tests.dll
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre.Tests\obj\Debug\netcoreapp2.2\Pierre.Tests.pdb

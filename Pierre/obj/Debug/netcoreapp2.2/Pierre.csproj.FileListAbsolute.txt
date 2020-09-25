@@ -1,0 +1,9 @@
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\bin\Debug\netcoreapp2.2\Pierre.deps.json
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\bin\Debug\netcoreapp2.2\Pierre.dll
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\bin\Debug\netcoreapp2.2\Pierre.pdb
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\obj\Debug\netcoreapp2.2\Pierre.csprojAssemblyReference.cache
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\obj\Debug\netcoreapp2.2\Pierre.csproj.CoreCompileInputs.cache
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\obj\Debug\netcoreapp2.2\Pierre.AssemblyInfoInputs.cache
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\obj\Debug\netcoreapp2.2\Pierre.AssemblyInfo.cs
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\obj\Debug\netcoreapp2.2\Pierre.dll
+K:\Epicodus-Projects\CSharp\Pierre.Solution\Pierre\obj\Debug\netcoreapp2.2\Pierre.pdb
