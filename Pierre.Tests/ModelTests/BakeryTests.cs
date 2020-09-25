@@ -36,5 +36,11 @@ namespace Pierre.Test
       Pastry testPastry = new Pastry();
       Assert.AreEqual(5, testPastry.isPastry(3));
     }
+    [TestMethod]
+    public void isPastry_BuySixforTen_True()
+    {
+      Pastry testPastry = new Pastry();
+      Assert.AreEqual(10, testPastry.isPastry(6));
+    }
 }
 }
