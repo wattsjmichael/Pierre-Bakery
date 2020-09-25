@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\Epicodus-Projects\\CSharp\\Pierre.Solution\\pierre.tests\\Pierre.Tests.csproj": {}
+    "K:\\Epicodus-Projects\\CSharp\\Pierre.Solution\\Pierre.Tests\\Pierre.Tests.csproj": {}
   },
   "projects": {
-    "K:\\Epicodus-Projects\\CSharp\\Pierre.Solution\\pierre.tests\\Pierre.Tests.csproj": {
+    "K:\\Epicodus-Projects\\CSharp\\Pierre.Solution\\Pierre.Tests\\Pierre.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\Epicodus-Projects\\CSharp\\Pierre.Solution\\pierre.tests\\Pierre.Tests.csproj",
+        "projectUniqueName": "K:\\Epicodus-Projects\\CSharp\\Pierre.Solution\\Pierre.Tests\\Pierre.Tests.csproj",
         "projectName": "Pierre.Tests",
-        "projectPath": "K:\\Epicodus-Projects\\CSharp\\Pierre.Solution\\pierre.tests\\Pierre.Tests.csproj",
+        "projectPath": "K:\\Epicodus-Projects\\CSharp\\Pierre.Solution\\Pierre.Tests\\Pierre.Tests.csproj",
         "packagesPath": "C:\\Users\\WATTS\\.nuget\\packages\\",
-        "outputPath": "K:\\Epicodus-Projects\\CSharp\\Pierre.Solution\\pierre.tests\\obj\\",
+        "outputPath": "K:\\Epicodus-Projects\\CSharp\\Pierre.Solution\\Pierre.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
