@@ -12,6 +12,10 @@ namespace Pierre.Models
       {
         return (userBread * 5) - ((userBread / 3) * 5);
       }
+      else if (userBread %3 == 1)
+      {
+        return (userBread * 5) - ((userBread / 3) * 5);
+      }
       else
       {
         return (userBread * 5);
