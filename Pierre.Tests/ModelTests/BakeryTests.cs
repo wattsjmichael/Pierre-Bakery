@@ -1,6 +1,6 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Pierre;
+using Pierre.Models;
 
 namespace Pierre.Test
 {

@@ -20,7 +20,7 @@ namespace Pierre.Models
   }
   public class Pastry
   {
-    public int isPastry(int userPastry)
+    static public int isPastry(int userPastry)
     {
       if (userPastry % 3 == 0)
       {
