@@ -1,5 +1,4 @@
 using System;
-using Pierre;
 using Pierre.Models;
 
 
@@ -9,12 +8,23 @@ namespace Pierre
   {
     public static void Main()
     {
-      Console.WriteLine("Welcome to Pierre's Bakery!");
-      Console.WriteLine("----------------------------");
-      Console.WriteLine("How many loaves of Bread would you like?");
-      string userOrderOne = Console.ReadLine();
-      int userBread = int.Parse(userOrderOne);
-      Console.WriteLine(userBread.isBread());
-    }
+      string userInput;
+      
+      
+      Console.WriteLine("How Many Bread?");
+      userInput = Console.ReadLine();
+      int userBread = int.Parse(userInput);
+      Console.WriteLine(Bread.isBread(userBread));
+
+    //   Bread order = new Bread(userBread);
+
+    //   Console.WriteLine("Welcome to Pierre's Bakery!");
+    //   Console.WriteLine("----------------------------");
+    //   Console.WriteLine("How many loaves of Bread would you like?");
+    //   string userOrderOne = Console.ReadLine();
+    //   int userBread = int.Parse(userOrderOne);
+    //   Console.WriteLine(userBread.isBread());
+    // }
   }
+}
 }
