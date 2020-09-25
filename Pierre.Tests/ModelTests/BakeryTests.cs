@@ -43,10 +43,16 @@ namespace Pierre.Test
       Assert.AreEqual(10, testPastry.isPastry(6));
     }
     [TestMethod]
-    public void  isPastryBuySevenforTwelve_True()
+    public void  isPastry_BuySevenforTwelve_True()
     {
       Pastry testPastry = new Pastry();
       Assert.AreEqual(12, testPastry.isPastry(7));
+    }
+    [TestMethod]
+    public void isPastry_BuyEightforFourteen_True()
+    {
+      Pastry testPastry = new Pastry();
+      Assert.AreEqual(14, testPastry.isPastry(8));
     }
 }
 }
