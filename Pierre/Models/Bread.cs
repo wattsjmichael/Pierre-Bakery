@@ -5,14 +5,14 @@ namespace Pierre.Models
 {
   public class Bread
   {
-    
-    public static int isBread(int userBread)
+
+    public int isBread(int userBread)
     {
       if (userBread % 3 == 0)
       {
         return (userBread * 5) - ((userBread / 3) * 5);
       }
-      else if (userBread %3 == 1)
+      else if (userBread % 3 == 1)
       {
         return (userBread * 5) - ((userBread / 3) * 5);
       }
@@ -22,9 +22,9 @@ namespace Pierre.Models
       }
     } 
   }
-  public  class Pastry
+  public class Pastry
   {
-    public static int isPastry(int userPastry)
+    public int isPastry(int userPastry)
     {
       if (userPastry % 3 == 0)
       {

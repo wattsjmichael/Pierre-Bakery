@@ -10,6 +10,8 @@ namespace Pierre
     {
       string userInputBread;
       string userInputPastry;
+      Bread userOrderBread = new Bread();
+      Pastry userOrderPastry = new Pastry();
       
 
       Console.WriteLine("Welcome to Pierre's Bakery!");
@@ -28,11 +30,11 @@ namespace Pierre
       int userPastry = int.Parse(userInputPastry);
       Console.WriteLine("--------------------");
       Console.WriteLine("Your Itemized Receipt (you know for those pesky expense reports :)");
-      Console.WriteLine(Pastry.isPastry(userPastry) + " Dollars for your Pastries");
+      Console.WriteLine(userOrderPastry.isPastry(userPastry) + " Dollars for your Pastries");
       int userBread = int.Parse(userInputBread);
-      Console.WriteLine(Bread.isBread(userBread) + " Dollars for your Bread");
-      int totalBread = Bread.isBread(userBread);
-      int totalPastry = Pastry.isPastry(userPastry);
+      Console.WriteLine(userOrderBread.isBread(userBread) + " Dollars for your Bread");
+      int totalBread = userOrderBread.isBread(userBread);
+      int totalPastry = userOrderPastry.isPastry(userPastry);
       Console.WriteLine("-------------------");
       Console.WriteLine("Your total is " + ((totalBread) + (totalPastry)) + " Dollars"); 
       Console.WriteLine("Thank you for shopping at Pierre's Bakery! Take Care! ");
