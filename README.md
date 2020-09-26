@@ -26,7 +26,7 @@ A C# Console application that asks for the number of loaves of bread and the num
 
 ## Bugs
 
-* Testing does not work due to static method of Bread.cs 
+* No know bugs
 
 ## Technologies Used
 
