@@ -61,5 +61,5 @@ namespace Pierre.Test
     Bread testBread = new Bread();
     Assert.AreEqual(25, testBread.IsBread(25));
     }
-   
+  }
 }
