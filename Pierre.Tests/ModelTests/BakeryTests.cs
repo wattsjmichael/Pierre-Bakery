@@ -8,52 +8,52 @@ namespace Pierre.Test
   public class BakeryTests
   {
     [TestMethod]
-    public void isBread_NumberMultipleByFive_True() // Sees if Bread is a interger and changeable
+    public void breadCost_NumberMultipleByFive_True() // Sees if Bread is a interger and changeable
     {
-      Bread testBread = new Bread();
-      Assert.AreEqual(10, testBread.isBread(2));
+      Order testBread = new Order();
+      Assert.AreEqual(10, testBread.breadCost(2));
     }
     [TestMethod]
-    public void isPastry_NumberMultiplyByTwo_True()// Sees if Pastry is a interger and changeable
+    public void pastryCost_NumberMultiplyByTwo_True()// Sees if Pastry is a interger and changeable
     {
-      Pastry testPastry = new Pastry();
-      Assert.AreEqual(4, testPastry.isPastry(2));
+      Order testPastry = new Order();
+      Assert.AreEqual(4, testPastry.pastryCost(2));
     }
     [TestMethod]
-    public void isBread_BuyTwoGetOneFree_True()
+    public void breadCost_BuyTwoGetOneFree_True()
     {
-      Bread testBread = new Bread();
-      Assert.AreEqual(10, testBread.isBread(3));
+      Order testBread = new Order();
+      Assert.AreEqual(10, testBread.breadCost(3));
     }
     [TestMethod]
-    public void isBread_BuyFourGetTwoFree_True()
+    public void breadCost_BuyFourGetTwoFree_True()
     {
-      Bread testBread = new Bread();
-      Assert.AreEqual(20, testBread.isBread(6));
+      Order testBread = new Order();
+      Assert.AreEqual(20, testBread.breadCost(6));
     }
     [TestMethod]
-    public void isPastry_BuyThreeforFive_True()
+    public void pastryCost_BuyThreeforFive_True()
     {
-      Pastry testPastry = new Pastry();
-      Assert.AreEqual(5, testPastry.isPastry(3));
+      Order testPastry = new Order();
+      Assert.AreEqual(5, testPastry.pastryCost(3));
     }
     [TestMethod]
-    public void isPastry_BuySixforTen_True()
+    public void pastryCost_BuySixforTen_True()
     {
-      Pastry testPastry = new Pastry();
-      Assert.AreEqual(10, testPastry.isPastry(6));
+      Order testPastry = new Order();
+      Assert.AreEqual(10, testPastry.pastryCost(6));
     }
     [TestMethod]
-    public void  isPastry_BuySevenforTwelve_True()
+    public void  pastryCost_BuySevenforTwelve_True()
     {
-      Pastry testPastry = new Pastry();
-      Assert.AreEqual(12, testPastry.isPastry(7));
+      Order testPastry = new Order();
+      Assert.AreEqual(12, testPastry.pastryCost(7));
     }
     [TestMethod]
-    public void isPastry_BuyEightforFourteen_True()
+    public void pastryCost_BuyEightforFourteen_True()
     {
-      Pastry testPastry = new Pastry();
-      Assert.AreEqual(14, testPastry.isPastry(8));
+      Order testPastry = new Order();
+      Assert.AreEqual(14, testPastry.pastryCost(8));
     }
   }
 }

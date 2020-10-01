@@ -3,10 +3,11 @@ using System;
 
 namespace Pierre.Models
 {
-  public class Bread
+  public class Order
   {
-
-    public int isBread(int userBread)
+    public string userBread { get; set; }
+    public string userPastry { get; set; }
+    public int breadCost(int userBread)
     {
       if (userBread % 3 == 0)
       {
@@ -20,11 +21,8 @@ namespace Pierre.Models
       {
         return (userBread * 5);
       }
-    } 
-  }
-  public class Pastry
-  {
-    public int isPastry(int userPastry)
+    }
+    public int pastryCost(int userPastry)
     {
       if (userPastry % 3 == 0)
       {
@@ -43,9 +41,7 @@ namespace Pierre.Models
         return (userPastry * 2);
       }
     }
-
   }
-
 }
 
 
